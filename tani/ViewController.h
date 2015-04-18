@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController{
     IBOutlet UITableView*table;
 }
+
 -(IBAction)plus;
 -(IBAction)plust;
 @end
