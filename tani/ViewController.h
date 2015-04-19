@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController{
     IBOutlet UITableView*table;
+    
     IBOutlet UILabel *subname;
     IBOutlet UILabel *absent;
     IBOutlet UILabel *late;

@@ -10,10 +10,10 @@
 
 @interface ViewController ()
 
+
 @end
 
 @implementation ViewController
-
 @synthesize subject;
 - (void)viewDidLoad {
     [super viewDidLoad];
