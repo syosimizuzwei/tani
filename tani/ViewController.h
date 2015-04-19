@@ -16,4 +16,7 @@
 
 -(IBAction)plus;
 -(IBAction)plust;
+@property(nonatomic) NSDate* subject;
+@property(nonatomic) int score;
+
 @end
