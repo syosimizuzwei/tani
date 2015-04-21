@@ -24,14 +24,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(void)viewDidAppear:(BOOL)animated {
-    
-    
-    [self->table
-     reloadData];
-    
-}
 
+/*- (id)initWithStyle:(UITableViewStyle)style
+{
+    self = [super initWithStyle:style];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+*/
 
 /*
 #pragma mark - Navigation
@@ -42,6 +44,12 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    // Return the number of rows in the section.
+    return [diaryListArray count];
+}
+
 -(UITableViewCell *)tableView:(UITableView *)tableView
 cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
