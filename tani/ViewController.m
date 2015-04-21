@@ -24,6 +24,14 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)viewDidAppear:(BOOL)animated {
+    
+    
+    [self->table
+     reloadData];
+    
+}
+
 
 /*
 #pragma mark - Navigation
@@ -47,8 +55,13 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     return cell;
     
 }
-
-
-
-
+-(IBAction)plus{
+    absent++;
+    label2.text=[NSString stringWithFormat:@"%d",absent];
+}
+-(IBAction)plust
+{
+    late++;
+    label3.text=[NSString stringWithFormat:@"%d",late];
+}
 @end

@@ -10,7 +10,11 @@
 
 @interface ViewController : UIViewController{
     IBOutlet UITableView*table;
-    
+    int absent;
+    int late;
+     UILabel *label1;
+     UILabel *label2;
+     UILabel *label3;
     
     NSArray *subjectArray;
 
@@ -19,6 +23,6 @@
 -(IBAction)plus;
 -(IBAction)plust;
 @property(nonatomic) NSDate* subject;
-@property(nonatomic) int score;
+//@property(nonatomic) int score;
 
 @end
