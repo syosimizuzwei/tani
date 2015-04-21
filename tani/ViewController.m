@@ -34,6 +34,21 @@
     // Pass the selected object to the new view controller.
 }
 */
+-(UITableViewCell *)tableView:(UITableView *)tableView
+cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UITableViewCell *cell = [tableView
+                             dequeueReusableCellWithIdentifier:@"diary_entry"];
+    UILabel *label1 = (UILabel*)[cell viewWithTag:1];
+    UILabel *label2 = (UILabel*)[cell viewWithTag:2];
+    UILabel *label3 = (UILabel*)[cell viewWithTag:3];
+    
+    
+    return cell;
+    
+}
+
+
 
 
 @end
