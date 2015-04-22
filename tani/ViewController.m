@@ -63,6 +63,7 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     return cell;
     
 }
+
 -(IBAction)plus{
     absent++;
     label2.text=[NSString stringWithFormat:@"%d",absent];
