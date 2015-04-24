@@ -47,7 +47,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [diaryListArray count];
+    return [subjectArray count];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView
