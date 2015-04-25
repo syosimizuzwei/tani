@@ -15,19 +15,22 @@
 
 @implementation ViewController
 @synthesize subject;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    label1.text=[NSString stringWithFormat:@"subject"];
-       label2.text=[NSString stringWithFormat:@"0"];
-   label3.text=[NSString stringWithFormat:@"0"];
-}
+    }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)viewWillAppear:(BOOL)animated{
+    label1.text=[NSString stringWithFormat:@"subject"];
+    label2.text=[NSString stringWithFormat:@"0"];
+    label3.text=[NSString stringWithFormat:@"0"];
 
+}
 
 
 /*
@@ -53,6 +56,7 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UILabel *label1 = (UILabel*)[cell viewWithTag:1];
     UILabel *label2 = (UILabel*)[cell viewWithTag:2];
     UILabel *label3 = (UILabel*)[cell viewWithTag:3];
+    
     
     
     return cell;
