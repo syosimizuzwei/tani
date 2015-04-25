@@ -18,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    label1.text=[NSString stringWithFormat:@"subject"];
+       label2.text=[NSString stringWithFormat:@"0"];
+   label3.text=[NSString stringWithFormat:@"0"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,7 +49,7 @@
 cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell *cell = [tableView
-                             dequeueReusableCellWithIdentifier:@"diary_entry"];
+                             dequeueReusableCellWithIdentifier:@"subcell"];
     UILabel *label1 = (UILabel*)[cell viewWithTag:1];
     UILabel *label2 = (UILabel*)[cell viewWithTag:2];
     UILabel *label3 = (UILabel*)[cell viewWithTag:3];
