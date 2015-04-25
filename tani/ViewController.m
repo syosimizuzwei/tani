@@ -26,9 +26,7 @@
     // Dispose of any resources that can be recreated.
 }
 -(void)viewWillAppear:(BOOL)animated{
-    label1.text=[NSString stringWithFormat:@"subject"];
-    label2.text=[NSString stringWithFormat:@"0"];
-    label3.text=[NSString stringWithFormat:@"0"];
+   
 
 }
 
@@ -53,10 +51,14 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell *cell = [tableView
                              dequeueReusableCellWithIdentifier:@"subcell"];
+   
     UILabel *label1 = (UILabel*)[cell viewWithTag:1];
     UILabel *label2 = (UILabel*)[cell viewWithTag:2];
     UILabel *label3 = (UILabel*)[cell viewWithTag:3];
     
+    label1.text=[NSString stringWithFormat:@"subject"];
+    label2.text=[NSString stringWithFormat:@"0"];
+    label3.text=[NSString stringWithFormat:@"0"];
     
     
     return cell;
@@ -65,11 +67,11 @@ cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 
 -(IBAction)plus{
     absent++;
-    label2.text=[NSString stringWithFormat:@"%d",absent];
+//    label2.text=[NSString stringWithFormat:@"%d",absent];
 }
 -(IBAction)plust
 {
     late++;
-    label3.text=[NSString stringWithFormat:@"%d",late];
+//    label3.text=[NSString stringWithFormat:@"%d",late];
 }
 @end

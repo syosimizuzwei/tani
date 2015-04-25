@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController{
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>{
     IBOutlet UITableView*table;
     int absent;
     int late;
-     UILabel *label1;
-     UILabel *label2;
-     UILabel *label3;
+//UILabel *label1;
+//     UILabel *label2;
+//     UILabel *label3;
     
     NSArray *subjectArray;
 
