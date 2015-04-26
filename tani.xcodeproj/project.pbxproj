@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A7D74BB1AEC99FE00672816 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7D74BA1AEC99FE00672816 /* AssetsLibrary.framework */; };
+		1A7D74BD1AEC9A0900672816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7D74BC1AEC9A0900672816 /* Foundation.framework */; };
+		1A7D74BF1AEC9A1500672816 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7D74BE1AEC9A1500672816 /* CoreGraphics.framework */; };
+		1A7D74C11AEC9A2500672816 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7D74C01AEC9A2500672816 /* UIKit.framework */; };
 		1AD8CF511AE26C20002F7BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8CF501AE26C20002F7BFC /* main.m */; };
 		1AD8CF541AE26C20002F7BFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8CF531AE26C20002F7BFC /* AppDelegate.m */; };
 		1AD8CF5C1AE26C20002F7BFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD8CF5B1AE26C20002F7BFC /* Images.xcassets */; };
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A7D74BA1AEC99FE00672816 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		1A7D74BC1AEC9A0900672816 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A7D74BE1AEC9A1500672816 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A7D74C01AEC9A2500672816 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1AD8CF4B1AE26C20002F7BFC /* tani.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tani.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD8CF4F1AE26C20002F7BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AD8CF501AE26C20002F7BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7D74C11AEC9A2500672816 /* UIKit.framework in Frameworks */,
+				1A7D74BF1AEC9A1500672816 /* CoreGraphics.framework in Frameworks */,
+				1A7D74BD1AEC9A0900672816 /* Foundation.framework in Frameworks */,
+				1A7D74BB1AEC99FE00672816 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,10 @@
 		1AD8CF421AE26C20002F7BFC = {
 			isa = PBXGroup;
 			children = (
+				1A7D74C01AEC9A2500672816 /* UIKit.framework */,
+				1A7D74BE1AEC9A1500672816 /* CoreGraphics.framework */,
+				1A7D74BC1AEC9A0900672816 /* Foundation.framework */,
+				1A7D74BA1AEC99FE00672816 /* AssetsLibrary.framework */,
 				1AD8CF4D1AE26C20002F7BFC /* tani */,
 				1AD8CF671AE26C20002F7BFC /* taniTests */,
 				1AD8CF4C1AE26C20002F7BFC /* Products */,
@@ -406,6 +422,7 @@
 				1AD8CF701AE26C20002F7BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AD8CF711AE26C20002F7BFC /* Build configuration list for PBXNativeTarget "taniTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +431,7 @@
 				1AD8CF731AE26C20002F7BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

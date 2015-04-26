@@ -40,11 +40,22 @@
     // Pass the selected object to the new view controller.
 }
 */
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)table
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
     return [subjectArray count];
 }
+
+//- (NSInteger)tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section
+//{
+//    // Return the number of rows in the section.
+//    return [subjectArray count];
+//}
 
 -(UITableViewCell *)tableView:(UITableView *)tableView
 cellForRowAtIndexPath:(NSIndexPath *)indexPath {
