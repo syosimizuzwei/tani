@@ -11,6 +11,7 @@
 		1A7D74BD1AEC9A0900672816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7D74BC1AEC9A0900672816 /* Foundation.framework */; };
 		1A7D74BF1AEC9A1500672816 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7D74BE1AEC9A1500672816 /* CoreGraphics.framework */; };
 		1A7D74C11AEC9A2500672816 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7D74C01AEC9A2500672816 /* UIKit.framework */; };
+		1A7D74C41AEE6D5E00672816 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7D74C31AEE6D5E00672816 /* TableViewController.m */; };
 		1AD8CF511AE26C20002F7BFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8CF501AE26C20002F7BFC /* main.m */; };
 		1AD8CF541AE26C20002F7BFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD8CF531AE26C20002F7BFC /* AppDelegate.m */; };
 		1AD8CF5C1AE26C20002F7BFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD8CF5B1AE26C20002F7BFC /* Images.xcassets */; };
@@ -35,6 +36,8 @@
 		1A7D74BC1AEC9A0900672816 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1A7D74BE1AEC9A1500672816 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1A7D74C01AEC9A2500672816 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A7D74C21AEE6D5E00672816 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		1A7D74C31AEE6D5E00672816 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		1AD8CF4B1AE26C20002F7BFC /* tani.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tani.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD8CF4F1AE26C20002F7BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AD8CF501AE26C20002F7BFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				1AD8CF521AE26C20002F7BFC /* AppDelegate.h */,
 				1AD8CF531AE26C20002F7BFC /* AppDelegate.m */,
 				1AD8CF761AE276E8002F7BFC /* ViewController.h */,
+				1A7D74C21AEE6D5E00672816 /* TableViewController.h */,
+				1A7D74C31AEE6D5E00672816 /* TableViewController.m */,
 				1AD8CF771AE276E8002F7BFC /* ViewController.m */,
 				1AD8CF741AE26DDB002F7BFC /* Main.storyboard */,
 				1AD8CF5B1AE26C20002F7BFC /* Images.xcassets */,
@@ -238,6 +243,7 @@
 				1AD8CF541AE26C20002F7BFC /* AppDelegate.m in Sources */,
 				1AD8CF781AE276E8002F7BFC /* ViewController.m in Sources */,
 				1AD8CF511AE26C20002F7BFC /* main.m in Sources */,
+				1A7D74C41AEE6D5E00672816 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
