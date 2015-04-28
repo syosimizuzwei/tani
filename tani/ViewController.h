@@ -11,9 +11,7 @@
     IBOutlet UITableView*table;
     int absent;
     int late;
-//UILabel *label1;
-//     UILabel *label2;
-//     UILabel *label3;
+
     
     NSArray *subjectArray;
 
